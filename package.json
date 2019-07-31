@@ -1,0 +1,13 @@
+{
+  "name": "openapi-generator-symfony-array-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "0.0.16-4.0.3",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "generate": "rimraf generated/ && openapi-generator generate -g php-symfony -i petstore.yml -o generated/"
+  }
+}
