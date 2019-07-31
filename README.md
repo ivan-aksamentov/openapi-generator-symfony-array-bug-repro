@@ -13,3 +13,4 @@ yarn install
 yarn generate
 
 ```
+Then inspect `generated/Api/PetApiInterface.php#L121-L133`
